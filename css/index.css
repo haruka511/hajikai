@@ -1,0 +1,287 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background:url(../img/index/bg4.jpg);
+	font-family: "微軟正黑體";
+	text-align: center;
+}
+
+#banner{
+	position: relative;
+	height: 400px;
+	background-size: cover;
+	background-position: center center;
+	overflow: hidden;
+}
+#banner h1{
+	height: 50%;
+	display: inline-block;
+	text-align: center;
+	justify-content:center;
+}
+
+
+#mes1{
+	background-color: white;
+}
+
+#con2{
+	z-index:-1;
+}
+.logo img{
+	width: 300px;
+	position: absolute;
+	top: 10%;
+	right: 40%;
+}
+.carousel-fade .carousel-inner .item{  
+	opacity:0;  
+	-webkit-transition-property:opacity ;  
+	-moz-transition-property:opacity ;  
+	-ms-transition-property:opacity ;  
+	-o-transition-property:opacity ;  
+	transition-property:opacity ;
+}
+.carousel-fade .carousel-inner .active{  
+	opacity: 1;
+}
+.carousel-fade .carousel-inner .active.left,.carousel-fade .carousel-inner .active.right{  
+	left: 0;  
+	opacity: 0;
+}
+.carousel-fade .carousel-inner .next.left,.carousel-fade .carousel-inner .prev.right {
+	opacity: 1;
+}
+
+ul{
+	display: inline-block;
+}
+
+
+#text{
+	background-color: #e8e0dc;
+	height: auto;
+	padding: 0;
+}
+
+
+#text h5{
+	font-size: 25px;
+	padding-bottom: 40px;
+}
+
+#text1 {
+	background-color: #e8e0dc;
+	padding: 100px 60px 30px 60px;
+}
+
+#infoing{
+	height: 100%;
+	width: 100%;
+}
+
+#info {
+	padding-top: 30px;
+	width: 50%;
+	height: auto;
+	background-color: #E0C9BD
+}
+#base{
+	overflow: hidden;
+	height: auto;
+	margin: 100px 30px 150px 30px;
+}
+#binfo{
+	position: relative;
+}
+#baseimg{
+	padding: 10px;
+	height: 350px;
+	transform:scale(1,1);
+	transition: all 1s ease-out;
+	z-index:1;
+}
+#baseimg:hover{
+
+	transform:scale(1.05,1.05);
+	filter: blur(4px);
+}
+
+#baseimg2{
+	position: absolute;
+	top:18%;
+	right: 42%;
+	z-index: 2;
+}
+#baseimg2 img{
+	width: 160px;
+}
+
+#text2{
+	background-color: #D9CBC4;
+	padding: 80px 150px 30px 150px;
+}
+
+#product a{
+	text-decoration: none;
+	color: black;
+}
+#card{
+	padding: 0 10px;
+	margin: 0 0 50px 0;
+}
+#card img{
+	margin-bottom: 15px;
+}
+#card h5{
+	padding: 0;
+	margin-bottom: 0px;
+	font-size: 20px;
+}
+
+#photo{
+	overflow: hidden;
+	height: auto;
+	margin: 100px 30px 150px 30px;
+}
+#ptext{
+	height: 300px;
+}
+#ptext img{
+	height: 80%;
+}
+#pinfo{
+	position: relative;
+}
+#pimg{
+	padding: 10px;
+	height: 650px;
+	top: 15%;
+	left: 60%;
+	z-index:1;
+}
+
+#pimg2{
+	position: absolute;
+	height: 100px;
+	top:18%;
+	right: 25%;
+	z-index: 0;
+}
+#pimg2 img{
+	width: 160px;
+}
+#pimg3{
+	position: absolute;
+	top:45%;
+	left: 20%;
+	z-index: 0;
+}
+#pimg3 img{
+	width: 160px;
+
+}
+#ptext2{
+	font-size: 18px;
+	font-family: "標楷體";
+	line-height: 40px;
+	position: absolute;
+	left: 45%;
+	top: 80%;
+}
+
+#mg{
+	margin-top: -50px;
+}
+
+.navbar-brand{
+	font-family: "標楷體";
+}
+.navbar-nav{
+	font-family: "微軟正黑體";
+}
+.navbar-nav a {
+	margin: 0 50px;
+}
+#navpd{
+	padding-right: 50px;
+}
+#navimg{
+	height: 28px;
+	width: 28px;
+}
+#navli{
+	font-size: 25px;
+	font-family: "新明細體";
+}
+
+
+
+footer{
+
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom:0;
+}
+
+
+@media only screen and (max-width: 1120px) {
+	#banner{
+		height: 300px;
+	}
+	.logo img{
+		width: 250px;
+		height: 250px;
+		position: absolute;
+		top: 15%;
+		right: 38%;
+	}
+}
+
+@media screen and (max-width: 991) {
+	#info{
+		margin-left: 100px;
+		background-color: ;
+	}	
+}
+
+@media only screen and (max-width: 770px) {
+	#banner{
+		height: 300px;
+	}
+	.logo img{
+		width: 200px;
+		height: 200px;
+		position: absolute;
+		top: 15%;
+		right: 35%;
+	}
+}
+
+@media only screen and (max-width: 656px) {
+	#banner{
+		height: 300px;
+	}
+	.logo img{
+		width: 200px;
+		height: 200px;
+		position: absolute;
+		top: 15%;
+		right: 35%;
+	}
+}
+@media only screen and (max-width: 451px) {
+	#banner{
+		height: 180px;
+	}
+	.logo img{
+		width: 130px;
+		height: 130px;
+		position: absolute;
+		top: 15%;
+		right: 35%;
+	}
+}

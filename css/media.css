@@ -1,0 +1,36 @@
+@media screen and (min-width: 1120px){
+	#child2 {
+		position: absolute;
+		top: -50px;
+		right: 100px;
+		background-color: #ffffff;
+	}
+	#child2 img{
+		width: 20px;
+		height: 20px;
+	}
+}
+@media screen and (min-width: 767px){
+	#child2 {
+		position: absolute;
+		top: 50px;
+		right: 100px;
+		background-color: #ffffff;
+	}
+	#child2 img{
+		width: 20px;
+		height: 20px;
+	}
+}
+@media screen and (min-width: 656px){
+	#child2 {
+		position: absolute;
+		top: -50px;
+		right: 100px;
+		background-color: #ffffff;
+	}
+	#child2 img{
+		width: 20px;
+		height: 20px;
+	}
+}

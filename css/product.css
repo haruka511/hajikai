@@ -1,0 +1,85 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image:url(../img/product/bg4.jpg);
+}
+
+#banner{
+	position: relative;
+	height:400px;
+	background-image: url(../img/product/1111.jpg);
+	background-size:cover;
+	background-position: center center;
+}
+
+#header{
+	position: absolute;
+	top:40%;
+	left: 45%;
+	font-size: 45px;
+}
+
+#rr{
+	font-size: 20px;
+}
+  
+#text{
+	background-color: #D7C4BB;
+}
+#navimg{
+	height: 28px;
+	width: 28px;
+}
+
+
+#text nav{	
+	text-align: center;
+}
+#text ul{
+	display: inline-block;
+}
+#text nav li{
+	list-style-type:none;
+	float:left;
+	font-size: 20px;
+	margin-top:20px;
+}
+#text nav a{
+	display: block;
+	width: 180px;
+	color:black;
+	text-decoration: none;
+}
+#text nav a:hover{
+	color:#8C8D88;
+}
+
+#ww li{
+	display: block;
+	width: 100px;
+	color:#FFF;
+	text-decoration: none;
+}
+
+#ee{
+	margin-top: 10px;
+}
+
+figure{
+	margin: 0 auto;
+}
+
+footer{
+	position:relative;
+	bottom:0;
+	left: 0;
+	right:0;
+}
+
+#cc{
+	padding-left: 30px;
+	position: relative;
+  	left: 30px;
+}
